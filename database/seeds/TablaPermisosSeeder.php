@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Models\Permiso;
+use App\Models\Admin\Permiso;
 
 class TablaPermisosSeeder extends Seeder
 {
@@ -12,7 +12,7 @@ class TablaPermisosSeeder extends Seeder
      */
     public function run()
     {
-        factory(Permiso::class,20)->create();
+        factory(Permiso::class,5)->create();
         // factory(Permiso::class)->times(30)->create();  /**Otra Opcion */
     }
 }

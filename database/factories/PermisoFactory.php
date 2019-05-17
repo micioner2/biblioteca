@@ -4,7 +4,7 @@
 
 use App\Model;
 use Faker\Generator as Faker;
-use App\Models\Permiso;
+use App\Models\Admin\Permiso;
 
 $factory->define(Permiso::class, function (Faker $faker) {
     return [

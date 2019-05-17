@@ -106,7 +106,7 @@
                 <ul class="dropdown-menu">
                   <!-- User image -->
                   <li class="user-header">
-                    <img src="{{asset("assets/dist/img/user2-160x160.jpg$theme")}}" class="img-circle" alt="User Image">
+                    <img src="{{asset("assets/$theme/dist/img/user2-160x160.jpg")}}" class="img-circle" alt="User Image">
     
                     <p>
                       Alexander Pierce - Web Developer
