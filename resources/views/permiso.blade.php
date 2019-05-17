@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hola {{$nombre}}</h1> 
+    <h1>Hola Mauricio {{$nombre}}</h1> 
 
     <a href="{{ route('permiso') }}">Ir a permiso</a>
 </body>
