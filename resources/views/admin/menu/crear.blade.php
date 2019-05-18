@@ -8,11 +8,13 @@
 @section('contenido')
 <div class="row">
     <div class="col-lg-12">
+        @include('includes.form-error')
+        @include('includes.form-mensaje')
         <div class="box box-primary">
             <div class="box-header with-border">
                 <h3 class="box-title">Crear Menús</h3>
             </div>
-            <form action="{{route('guardar_menu')}}" id="form-general" method="POST" class="form-horizontal">
+            <form action="{{route('guardar_menu')}}" id="form-general" method="POST" class="form-horizontal" autocomplete="off">
                 @csrf
                 <div class="box-body">
                     @include('admin.menu.form')
